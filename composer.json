@@ -1,0 +1,24 @@
+{
+    "name": "ybiel778x/blade",
+    "description": "This component is a standalone version of the Blade Template Engine that can be ported and used in different projects. It allows you to use the blade model outside of Laravel.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Gabriel Amorim",
+            "email": "support@codealpha.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CodeAlpha\\Blade\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.0",
+        "squizlabs/php_codesniffer": "^3.6"
+    }
+}
